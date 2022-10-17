@@ -1,0 +1,28 @@
+1. Perbedaan interpreter dan compiler
+    interpreter : - Menerjemahkan kode sumber untuk 1 statemen dalam satu waktu
+                  - Membutuhkan waktu yang sedikit untuk menganalisa kode sumber tapi secara keseluruhan waktu eksekusinya menjadi lebih lambat
+                  - Tidak ada Intermediate Object Code dihasilkan, sehingga membuat memori efisien
+                  - Menerjemahkan kode program secara continue sampai kode error pertama ditemukan, kemudian proses dihentikan. Oleh karena itu lebih mudah melakukan
+                    debug
+    
+    compiler    : - Membaca keseluruhan kode sumber dan kemudian menerjemahkannya secara keseluruhan menjadi bahasa mesin
+                  - Membutuhkan waktu yang lebih banyak menganalisa kode program tapi waktu eksekusinya menjadi lebih cepat
+                  - Menghasilkan Intermediate Object Code yang kemudian dihubungkan dengan yang lain, sehingga lebih banyak memerlukan memori
+                  - Secara umum menampilkan pesan error pada keseluruhan kode program. Oleh karena itu, ketika melakukan debug menjadi lebih sulit
+                  
+                  
+ 2. Kegunaan dari C++
+      dengan kemampuan C++ dalam mengoptimisasi memory dan manajemen jaringan komputer. C++ memberikan kemampuan penuh untuk dapat mengembangkan aplikasi dekstop
+      yang sangat bermacam-macam. Selain aplikasi dekstop c++ mampu untuk mengembangkan game, aplikasi web, aplikasi database, sistem operasi, dll.
+      
+ 3. kenapa kita belajar c++
+      - C++ dikategorikan sebagai bahasa tingkat menengah sehingga mendekati bahasa mesin
+      - Dapat dikembangkan di berbagai platform sehingga aplikasi yang dibangun dapat berjalan di sistem operasi yang berbeda
+      - Compiler C++ yang sangat baik sehingga dapat mempercepat proses kompilasi
+      - C++ merupakan bahasa terstruktur yang mendukung OOP(Object Oriented Programming)
+ 
+ 4. cara c++ berkomunikasi dengan mesin
+       c++ membutuhkan compiler untuk menerjemahkan ke bahasa mesin. Compiler ini lah yang nantikanya akan meng-compile bahasa-bahasa C++ yang telah kita buat tersebut
+       menjadi kebahasa mesin. Untuk menulis sebuah program C++ dibutuhkan yang namanya text editor dan compiler.
+       Hasil dari text editor itu nantinya akan di compile dengan compiler yang kemudian akan menghasilkan sebuah file executable.
+       Executable ini lah yang nantinya bisa dijalankan di PC/ Laptop. Tidak hanya untuk PC kita juga bisa membuatnya untuk perangkat Android, MAC, IOS dll.
